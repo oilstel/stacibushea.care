@@ -1,0 +1,129 @@
+@font-face {
+    font-family: 'Fournier MT Std';
+    src: url('FournierMTStd-Regular.woff2') format('woff2'),
+        url('FournierMTStd-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+html {
+	height: auto;
+	background: linear-gradient(0deg, #776964, #225d10 80%) no-repeat;
+}
+body {
+	font-family: "Fournier MT Std", times, serif;
+	font-size: 3.0em;
+	line-height: 0.98em;
+	margin: 6%;
+
+	color: #000;
+}
+h1 {
+    top: 20px;
+    left: 20px;
+    position: fixed;
+    font-style: italic;
+    color: #7e8bc6;
+    font-weight: normal;
+}
+h1, h2, p {
+    font-size: 48px;
+    line-height: 47px;
+}
+h2 {
+    color: #7e8bc6;
+    text-align: center;
+    font-style: italic;
+    font-weight: normal;
+    margin: 0;
+}
+.star {
+    color: #7e8bc6;
+    text-align: center;
+}
+#fixed-images img {
+    position: fixed;
+    pointer-events: none;
+}
+#fixed-images img#wave {
+    width: 12%;
+    left: 46%;
+    top: 13%;
+    /* background-color: #31009c; */
+}
+#fixed-images img#ornament-1 {
+    width: 3%;
+    left: 5%;
+    top: 48%;
+    /* background: yellow; */
+}
+#fixed-images img#ornament-2 {
+    width: 10%;
+    right: 3%;
+    top: 18%;
+    /* background-color: cyan; */
+}
+#fixed-images img#beverly {
+    width: 10%;
+    right: 8%;
+    top: 62%;
+}
+.light {
+    color: #7e8bc6;
+}
+.center {
+    text-align: center;
+}
+main {
+    padding: 50px 0;
+}
+main p {
+    margin: 50px 0;
+}
+figure {
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+	text-align: center;
+    margin: 0;
+}
+figure figcaption {
+    font-size: 24px;
+    line-height: 26px;
+    font-style: italic;
+    color: #8ab57c;
+    margin-top: 10px;
+}
+figure .image-set {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 3px;
+}
+figure img {
+    width: 20%;
+    min-width: 200px;
+}
+a {
+	color: black;
+	text-decoration: none;
+}
+a:hover {
+	color: #31009c;
+}
+/* a:visited, a:active {
+	color: black;
+} */
+footer {
+    font-size: 40px;
+}
+
+/* Mobile */
+@media(max-width: 600px) {
+    h1, h2, p {
+		font-size: 20px;
+        line-height: 20px;
+	}
+}
