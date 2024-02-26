@@ -59,7 +59,7 @@ h2 {
 }
 #fixed-images img#ornament-2 {
     width: 10%;
-    right: 3%;
+    left: 3%;
     top: 18%;
     /* background-color: cyan; */
 }
@@ -118,12 +118,20 @@ a:hover {
 } */
 footer {
     font-size: 40px;
+    margin-top: 200px;
 }
 
 /* Mobile */
 @media(max-width: 600px) {
-    h1, h2, p {
+    h1, h2, p, footer {
 		font-size: 20px;
         line-height: 20px;
 	}
+    figure figcaption {
+        font-size: 14px;
+        line-height: 16px;
+    }
+    main p {
+        margin: 20px 0;
+    }
 }
