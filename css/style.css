@@ -18,13 +18,31 @@ body {
 
 	color: #000;
 }
-h1 {
+header {
     top: 20px;
     left: 20px;
     position: fixed;
+}
+header h1, header nav {
     font-style: italic;
     color: #7e8bc6;
     font-weight: normal;
+}
+header h1 {
+    cursor: pointer;
+}
+header h1:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 3px;
+}
+header nav {
+    display: none;
+    flex-flow: column nowrap;
+    margin-top: 20px;
+}
+header nav a {
+    color: #7e8bc6;
 }
 h1, h2, p {
     font-size: 48px;
@@ -59,8 +77,8 @@ h2 {
 }
 #fixed-images img#ornament-2 {
     width: 10%;
-    left: 3%;
-    top: 18%;
+    right: 25%;
+    top: 26%;
     /* background-color: cyan; */
 }
 #fixed-images img#beverly {
