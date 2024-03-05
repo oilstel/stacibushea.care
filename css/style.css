@@ -9,13 +9,13 @@
 html {
 	height: auto;
 	background: linear-gradient(0deg, #776964, #225d10 80%) no-repeat;
+    background-color: #225d10;
 }
 body {
 	font-family: "Fournier MT Std", times, serif;
 	font-size: 3.0em;
 	line-height: 0.98em;
 	margin: 6%;
-
 	color: #000;
 }
 header {
