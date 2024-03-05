@@ -71,7 +71,7 @@ h2 {
 }
 #fixed-images img#ornament-1 {
     width: 3%;
-    left: 5%;
+    left: 2%;
     top: 48%;
     /* background: yellow; */
 }
@@ -81,10 +81,10 @@ h2 {
     top: 26%;
     /* background-color: cyan; */
 }
-#fixed-images img#beverly {
-    width: 10%;
+#fixed-images img#portrait {
+    width: 8%;
     right: 8%;
-    top: 62%;
+    bottom: 15%;
 }
 .light {
     color: #7e8bc6;
@@ -151,5 +151,8 @@ footer {
     }
     main p {
         margin: 20px 0;
+    }
+    #fixed-images img#wave {
+        top: 7%;
     }
 }
