@@ -23,7 +23,7 @@ header {
     left: 20px;
     position: fixed;
 }
-header h1, header nav {
+header h1 a, header nav {
     font-style: italic;
     color: #7e8bc6;
     font-weight: normal;
@@ -31,17 +31,21 @@ header h1, header nav {
 header h1 {
     cursor: pointer;
 }
-header h1:hover {
+header h1 a:hover {
+    color: #7e8bc6;
     text-decoration: underline;
     text-decoration-thickness: 2px;
     text-underline-offset: 3px;
 }
-header nav {
-    display: none;
-    flex-flow: column nowrap;
-    margin-top: 20px;
+nav {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    text-align: center;
+    font-style: italic;
+    color: #7e8bc6;
 }
-header nav a {
+nav a {
     color: #7e8bc6;
 }
 h1, h2, p {
