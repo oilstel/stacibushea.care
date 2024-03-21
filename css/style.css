@@ -69,26 +69,18 @@ h2 {
 }
 #fixed-images img#wave {
     width: 12%;
-    left: 46%;
-    top: 17%;
     /* background-color: #31009c; */
 }
 #fixed-images img#ornament-1 {
     width: 3%;
-    left: 2%;
-    bottom: 15%;
     /* background: yellow; */
 }
 #fixed-images img#ornament-2 {
     width: 10%;
-    right: 25%;
-    top: 35%;
     /* background-color: cyan; */
 }
 #fixed-images img#portrait {
     width: 8%;
-    right: 8%;
-    bottom: 15%;
 }
 .light {
     color: #7e8bc6;
