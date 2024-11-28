@@ -66,6 +66,7 @@ h2 {
 #fixed-images img {
     position: fixed;
     pointer-events: none;
+    z-index: -1;
 }
 #fixed-images img#wave {
     width: 12%;
